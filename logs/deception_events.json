@@ -202,5 +202,36 @@
             "risk_score": 0.95,
             "severity": "CRITICAL"
         }
+    },
+    {
+        "timestamp": "2026-09-29T16:01:44.997313",
+        "source_ip": "192.168.50.10",
+        "service": "DECEPTION_ENGINE",
+        "action": "ACTIVATED",
+        "details": {
+            "attack_type": "MULTI_STAGE_ATTACK",
+            "risk_score": 0.95,
+            "activation_number": 1
+        }
+    },
+    {
+        "timestamp": "2026-09-29T16:01:45.005232",
+        "source_ip": "192.168.50.10",
+        "service": "FAKE_DATABASE",
+        "action": "DATA_ACCESS",
+        "details": {
+            "table": "devices"
+        }
+    },
+    {
+        "timestamp": "2026-09-29T16:01:45.011621",
+        "source_ip": "192.168.50.10",
+        "service": "GHOSTMESH-DECOY",
+        "action": "MULTI_STAGE_ATTACK_CAPTURED",
+        "details": {
+            "device_id": "ESP32-01",
+            "attack_type": "MULTI_STAGE_ATTACK",
+            "risk_score": 0.95
+        }
     }
 ]
