@@ -1,0 +1,206 @@
+[
+    {
+        "timestamp": "2026-09-29T15:42:17.926600",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "CONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:42:17.927446",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "CONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:42:17.932494",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "COMMAND",
+        "details": {
+            "command": "GET / HTTP/1.1"
+        }
+    },
+    {
+        "timestamp": "2026-09-29T15:42:17.939309",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "COMMAND",
+        "details": {
+            "command": "HOST: 127.0.0.1:5432"
+        }
+    },
+    {
+        "timestamp": "2026-09-29T15:42:17.943092",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "DISCONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:42:18.986284",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "COMMAND",
+        "details": {
+            "command": "GET / HTTP/1.1"
+        }
+    },
+    {
+        "timestamp": "2026-09-29T15:42:18.992858",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "CONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:42:18.994974",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "CONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:42:18.995765",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "COMMAND",
+        "details": {
+            "command": "HOST: 127.0.0.1:5432"
+        }
+    },
+    {
+        "timestamp": "2026-09-29T15:42:19.027731",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "DISCONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:42:36.716068",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "CONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:42:36.719627",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "COMMAND",
+        "details": {
+            "command": "DEVICES"
+        }
+    },
+    {
+        "timestamp": "2026-09-29T15:42:36.723059",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "DISCONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:42:49.481602",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "CONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:42:49.484466",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "DISCONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:43:01.654673",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "COMMAND",
+        "details": {
+            "command": "GET / HTTP/1.1"
+        }
+    },
+    {
+        "timestamp": "2026-09-29T15:43:01.659887",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "CONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:43:01.660177",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "COMMAND",
+        "details": {
+            "command": "HOST: 127.0.0.1:5432"
+        }
+    },
+    {
+        "timestamp": "2026-09-29T15:43:01.673351",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "DISCONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:43:02.731554",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "COMMAND",
+        "details": {
+            "command": "GET / HTTP/1.1"
+        }
+    },
+    {
+        "timestamp": "2026-09-29T15:43:02.739556",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "COMMAND",
+        "details": {
+            "command": "HOST: 127.0.0.1:5432"
+        }
+    },
+    {
+        "timestamp": "2026-09-29T15:43:02.747359",
+        "source_ip": "127.0.0.1",
+        "service": "FAKE_DATABASE",
+        "action": "DISCONNECTED",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29T15:46:33.485534",
+        "source_ip": "192.168.50.10",
+        "service": "DECEPTION_ENGINE",
+        "action": "ACTIVATED",
+        "details": {
+            "attack_type": "MULTI_STAGE_ATTACK",
+            "risk_score": 0.95,
+            "activation_number": 1
+        }
+    },
+    {
+        "timestamp": "2026-09-29T15:46:33.497363",
+        "source_ip": "192.168.50.10",
+        "service": "FAKE_DATABASE",
+        "action": "DATA_ACCESS",
+        "details": {
+            "table": "devices"
+        }
+    },
+    {
+        "timestamp": "2026-09-29T15:46:33.502942",
+        "source_ip": "192.168.50.10",
+        "service": "FAKE_HTTP",
+        "action": "SUSPICIOUS_REQUEST",
+        "details": {
+            "target": "ESP32-01",
+            "attack_type": "MULTI_STAGE_ATTACK",
+            "risk_score": 0.95,
+            "severity": "CRITICAL"
+        }
+    }
+]
